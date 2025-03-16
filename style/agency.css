@@ -4,10 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
-body {
+ body {
     overflow-x: hidden;
-    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Minion Pro", "Georgia", "Times New Roman", serif;
 }
+
 
 p {
     line-height: 1.75;
@@ -79,7 +80,7 @@ body {
 #mainNav .navbar-toggler {
     font-size: 10px;
     right: 0;
-    padding: 13px;
+    padding: 12px;
     text-transform: uppercase;
     color: white;
     border: 0;
@@ -99,9 +100,9 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 80%;
+    font-size: 65%;
     font-weight: 300;
-    padding: 0.6em 0;
+    padding: 0.5em 0;
     letter-spacing: 1px;
     color: white;
 }
@@ -117,13 +118,13 @@ body {
 
 @media (min-width: 992px) {
     #mainNav {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
         -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
         transition: padding-top 0.3s, padding-bottom 0.3s;
         border: none;
-        background-color: transparent;
+        background-color:#222;
     }
     #mainNav .navbar-brand {
         font-size: 1.25em;
@@ -243,3 +244,23 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
+#gallery {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Align items to the left */
+    flex-wrap: wrap;
+  }
+  
+
+.navbar-brand img {
+    height: 100px; 
+    margin-right: 10px; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+.navbar {
+    padding: 10px 20px;}
