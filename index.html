@@ -17,7 +17,11 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Brown Systems Week</a>
+        <a class="navbar-brand js-scroll-trigger d-flex align-items-center" href="#page-top">
+          <img src="assets/brown_logo.png" alt="Brown University Logo" style="height: 40px; margin-right: 10px;">
+          <span style="color: white; font-weight: bold;">Brown Systems Week</span>
+        </a>
+                
         <button
           class="navbar-toggler navbar-toggler-right collapsed"
           type="button"
@@ -35,10 +39,13 @@
               <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#organizers">Organizers &amp; Speakers</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#topics">Topics &amp; Lectures</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#schedule">Organization &amp; Schedule</a>
+              <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#costs">Costs</a>
@@ -103,30 +110,43 @@
       </div>
     </section>
 
-    <!-- Topics & Lectures -->
-    <section id="topics">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-left">
-            <h2 class="section-heading text-uppercase">Topics &amp; Lectures</h2>
-            <p>
-              Lectures and corresponding lab sessions fall under (1) a common systems core, 
-              and (2) each year's special theme, driven by broader trends in the field. 
-              Lectures are provided by a combination of systems faculty at Brown CS 
-              and guest faculty from other institutions. The Systems Week additionally 
-              includes ample opportunities for interaction with industry participants 
-              and several additional social activities.
-            </p>
-            <p>
-              The Systems Week is organized around five mini-courses, typically delivered in daily lectures 
-              from multiple faculty members. Example topics include automated parallelization and distribution, 
-              retrofitting privacy guarantees, automated reasoning for systems, and scalable dataflow and 
-              streaming systems. 
-            </p>
+        <!-- Organizers -->
+        <section class="bg-light" id="organizers">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2 class="section-heading text-uppercase text-left">Organizers & Speakers</h2>
+                <div id="gallery" class="d-flex align-items-start flex-wrap w-100"></div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
+                        
+
+        <!-- Topics & Lectures -->
+        <section id="topics">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-left">
+                <h2 class="section-heading text-uppercase">Topics &amp; Lectures</h2>
+                <p>
+                  Lectures and corresponding lab sessions fall under (1) a common systems core, 
+                  and (2) each year's special theme, driven by broader trends in the field. 
+                  Lectures are provided by a combination of systems faculty at Brown CS 
+                  and guest faculty from other institutions. The Systems Week additionally 
+                  includes ample opportunities for interaction with industry participants 
+                  and several additional social activities.
+                </p>
+                <p>
+                  The Systems Week is organized around five mini-courses, typically delivered in daily lectures 
+                  from multiple faculty members. Example topics include automated parallelization and distribution, 
+                  retrofitting privacy guarantees, automated reasoning for systems, and scalable dataflow and 
+                  streaming systems. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
     <!-- Organization & Schedule -->
     <section class="bg-light" id="schedule">
@@ -149,8 +169,7 @@
             </p>
             <p>
               The following is a sample schedule. Lectures and hacking sessions take place in spaces of the Watson Center 
-              for Information Technology (CIT), the Brown Data Science Institute (DSI), or the Institute for Computational 
-              and Experimental Research in Mathematics (ICERM).
+              for Information Technology (CIT) and the Brown Data Science Institute (DSI).
             </p>
             <table cellpadding="5" style="width: 100%; max-width: 700px;">
               <thead>
@@ -231,34 +250,40 @@
       </div>
     </section>
 
-    <!-- Application -->
-    <section class="bg-light" id="application">
-      <div class="container">
-        <div class="row">
-          <div class="text-justify col-lg-12">
-            <h2 class="section-heading text-uppercase">Application</h2>
-            <p>
-              Among other information, the application process includes:
-            </p>
-            <ol>
-              <li>
-                A letter of motivation, where applicants outline their technical background, 
-                their anticipated gains from participating in the Systems Week, and optionally 
-                what they hope to contribute.
-              </li>
-              <li>
-                A letter of recommendation that comments on the candidate's design, building, 
-                or characterization abilities in software systems, broadly construed.
-              </li>
-            </ol>
-            <p>
-              An anticipated set of prerequisites and prior knowledge will be made 
-              available several weeks prior to the seminar.
-            </p>
-          </div>
+  <!-- Application -->
+  <section class="bg-light" id="application">
+    <div class="container">
+      <div class="row">
+        <div class="text-justify col-lg-12">
+          <h2 class="section-heading text-uppercase">Application</h2>
+          <p>
+            Among other information, the application process includes:
+          </p>
+          <ol>
+            <li>
+              A letter of motivation, where applicants outline their technical background, 
+              their anticipated gains from participating in the Systems Week, and optionally 
+              what they hope to contribute.
+            </li>
+            <li>
+              A letter of recommendation that comments on the candidate's design, building, 
+              or characterization abilities in software systems, broadly construed.
+            </li>
+          </ol>
+          <p>
+            To apply, please fill out the following  
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUhZzQFIAgCJhlIlLeHhzPl1yXhBQNsyTsvJHGOqD8WpYyoQ/viewform?usp=preview" target="_blank">
+              form.
+            </a>
+          </p>
+          <p>
+            An anticipated set of prerequisites and prior knowledge will be made 
+            available several weeks prior to the seminar.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <!-- Equipment & Support -->
     <section id="equipment">
@@ -299,5 +324,7 @@
     <script src="style/bootstrap.bundle.min.js"></script>
     <script src="style/jquery.easing.min.js"></script>
     <script src="style/agency.min.js"></script>
+    <script src="organizers.js"></script>
+
   </body>
 </html>

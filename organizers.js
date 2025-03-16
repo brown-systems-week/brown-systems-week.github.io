@@ -12,20 +12,17 @@ const organizers = [
     { name: "Vasileios P. Kemerlis", role: "Faculty", photo: "assets/vasilis.jpg", website: "https://cs.brown.edu/~vpk/" },
     { name: "Will P.L. Crichton", role: "Faculty", photo: "assets/will.jpg", website: "https://willcrichton.net" }
 ];
-
 const gallery = document.getElementById("gallery");
 
-gallery.classList.add("w-100"); 
+gallery.classList.add("w-100", "d-flex", "justify-content-center", "align-items-center", "flex-column"); // Center gallery properly
 
-gallery.innerHTML = ""; 
+gallery.innerHTML = ""; // Clear any previous content
 
-organizers.forEach((organizer, index) => {
-    if (index % 4 === 0) {
-        const row = document.createElement("div");
-        row.classList.add("d-flex", "justify-content-start", "flex-wrap", "mb-3", "w-100");
-        gallery.appendChild(row);
-    }
+const gridContainer = document.createElement("div");
+gridContainer.classList.add("d-flex", "justify-content-center", "flex-wrap", "w-100");
+gallery.appendChild(gridContainer);
 
+organizers.forEach((organizer) => {
     const item = document.createElement("div");
     item.classList.add("gallery-item", "text-center", "mx-3");
     item.innerHTML = `
@@ -36,5 +33,5 @@ organizers.forEach((organizer, index) => {
         </a>
         <br>${organizer.role}
     `;
-    gallery.lastChild.appendChild(item);
+    gridContainer.appendChild(item);
 });
