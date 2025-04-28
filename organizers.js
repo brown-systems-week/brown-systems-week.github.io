@@ -46,7 +46,7 @@ const organizers = [
         role: "Faculty",
         photo: "assets/robert.jpg",
         website: "https://robertylewis.com/",
-        confirmedSpeaker: true, 
+        confirmedSpeaker: false, 
     },
     {
         name: "Shriram Krishnamurthi",
@@ -60,7 +60,7 @@ const organizers = [
         role: "Faculty",
         photo: "assets/tim.jpg",
         website: "https://cs.brown.edu/~tbn/",
-        confirmedSpeaker: true,
+        confirmedSpeaker: false,
     },
     {
         name: "Ugur Cetintemel",
@@ -81,7 +81,7 @@ const organizers = [
         role: "Faculty",
         photo: "assets/will.jpg",
         website: "https://willcrichton.net",
-        confirmedSpeaker: true,
+        confirmedSpeaker: false,
     }
 ];
 
