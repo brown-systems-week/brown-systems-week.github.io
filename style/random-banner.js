@@ -1,8 +1,8 @@
 // List of banner images
 const bannerImages = [
-    'assets/banner1.jpg',
-    'assets/banner2.jpg',
-    'assets/banner3.jpg'
+    // 'assets/banner1.jpg',
+    'assets/banner2.jpg'
+    // 'assets/banner3.jpg'
 ];
 
 // Select the header element
