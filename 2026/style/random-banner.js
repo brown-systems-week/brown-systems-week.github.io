@@ -1,9 +1,5 @@
 // List of banner images
-const bannerImages = [
-    // 'assets/banner1.jpg',
-    'assets/banner2.jpg'
-    // 'assets/banner3.jpg'
-];
+const bannerImages = ['assets/banner_2026.jpg'];
 
 // Select the header element
 const header = document.getElementById('dynamic-header');
