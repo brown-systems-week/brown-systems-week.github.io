@@ -153,7 +153,7 @@
                 </p>
                 <p>
 
-                  A typical Systems Week will include five mini-courses, delivered in daily lectures from multiple faculty members. Example topics include automated parallelization and distribution, retrofitting privacy guarantees, automated reasoning for systems, and scalable dataflow and streaming systems. The target audience includes advanced undergraduate or early PhD students with a serious (and broad) background in systems, but not necessarily on any of the seminar's theme topics. An anticipated set of prerequisites and prior knowledge will be made available several weeks prior to the seminar.
+                  A typical Systems Week will include six mini-courses, delivered in daily lectures from multiple faculty members. Example topics include automated parallelization and distribution, retrofitting privacy guarantees, automated reasoning for systems, and scalable dataflow and streaming systems. The target audience includes advanced undergraduate or early PhD students with a serious (and broad) background in systems, but not necessarily on any of the seminar's theme topics. An anticipated set of prerequisites and prior knowledge will be made available several weeks prior to the seminar.
 
                 </p>
               </div>
@@ -169,9 +169,9 @@
         <h2 class="section-heading text-uppercase">Organization &amp; Schedule</h2>
         <p>
           The sessions are non-overlapping, so all participants will have the opportunity to attend all lectures. 
-          Each lecture is 80 minutes, including Q&amp;A, and each topic comprises a total of 4 lectures totalling 
-          320 minutes and spread throughout the week. Most lectures will be given between 9am to 5pm during weekdays, 
-          during the following windows: Session A (9–10:20am), B (10:40am–noon), C (2–3:20pm), and D (3:40–5pm). 
+          Each lecture is 70–80 minutes, including Q&amp;A, and each topic comprises a total of 4 lectures 
+          spread throughout the week. Most lectures will be given between 9am and 7pm during weekdays, 
+          during the following windows: Session A (9–10:20am), B (10:30–11:40am), C (1:40–2:50pm), D (3:00–4:20pm), E (4:30–5:40pm), and F (5:50–7:00pm). 
           Courses will include hacking sessions, with ample opportunities for interactivity, and in-class assignments 
           optionally to be continued at home.
         </p>
@@ -205,56 +205,100 @@
               <tr>
                 <td style="font-weight: bold; background-color: #f9f9f9;">A: 9–10:20am</td>
                 <td>ReasonRange</td>
-                <td>FastNets</td>
-                <td>RetroPriv</td>
-                <td>Transforms</td>
+                <td>eBPF</td>
+                <td>RustPriv</td>
+                <td>Analysis</td>
                 <td>SupChain</td>
               </tr>
               <tr>
-                <td style="font-weight: bold; background-color: #f9f9f9;">B: 10:40–noon</td>
+                <td style="font-weight: bold; background-color: #f9f9f9;">B: 10:30–11:40am</td>
                 <td>SupChain</td>
                 <td>ReasonRange</td>
-                <td>FastNets</td>
-                <td>RetroPriv</td>
-                <td>Transforms</td>
+                <td>eBPF</td>
+                <td>RustPriv</td>
+                <td>Analysis</td>
               </tr>
               <tr>
-                <td style="font-weight: bold; background-color: #f9f9f9;">C: 2–3:20pm</td>
-                <td>Transforms</td>
+                <td style="font-weight: bold; background-color: #f9f9f9;">C: 1:40–2:50pm</td>
+                <td>GPUSys</td>
                 <td>SupChain</td>
                 <td>ReasonRange</td>
-                <td>FastNets</td>
-                <td>RetroPriv</td>
+                <td>eBPF</td>
+                <td>RustPriv</td>
               </tr>
               <tr>
-                <td style="font-weight: bold; background-color: #f9f9f9;">D: 3:40–5pm</td>
-                <td>RetroPriv</td>
-                <td>Transforms</td>
+                <td style="font-weight: bold; background-color: #f9f9f9;">D: 3:00–4:20pm</td>
+                <td>Analysis</td>
+                <td>GPUSys</td>
                 <td>SupChain</td>
                 <td>ReasonRange</td>
-                <td>FastNets</td>
+                <td>eBPF</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold; background-color: #f9f9f9;">E: 4:30–5:40pm</td>
+                <td>RustPriv</td>
+                <td>Analysis</td>
+                <td>GPUSys</td>
+                <td>SupChain</td>
+                <td>ReasonRange</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold; background-color: #f9f9f9;">F: 5:50–7:00pm</td>
+                <td>eBPF</td>
+                <td>RustPriv</td>
+                <td>Analysis</td>
+                <td>GPUSys</td>
+                <td>Keynote / Panel</td>
               </tr>
             </tbody>
           </table>
         </div>
         <br></br>
         <p>
-          Minicourses for 2026 have not been finalized. Below are some examples.
+          Below is a preliminary list of minicourses for 2026:
         </p>
         <ul>
           <li>
-            <strong>Low-latency networking systems (FastNets):</strong> A mini-course from Deepti Raghavan / Akshay Narayan / Nick DeMarinis on kernel bypass, eBPF, async I/O with <code>io_uring</code>, etc.
+            <strong>Extensible OSes, Network Security, &amp; eBPF (eBPF):</strong> A mini-course from
+            <a href="https://akshayn.xyz/" target="_blank">Akshay Narayan</a> and
+            <a href="https://vty.sh" target="_blank">Nick DeMarinis</a>
+            on verifiable kernel extensions with eBPF.
           </li>
           <li>
-            <strong>A range of reasoning for systems (ReasonRange):</strong> A mini-course from Tim Nelson and Rob Lewis on applying a range of manual-automated reasoning to systems.
+            <strong>Modeling GPU Performance (GPUSys):</strong> A mini-course on modelling and harnessing the power of GPUs for modern workloads by
+            <a href="https://cs.brown.edu/people/faculty/mzizyte/" target="_blank">Milda Zizyte</a> and
+            <a href="https://deeptir.me/" target="_blank">Deepti Raghavan</a>.
           </li>
           <li>
-            <strong>Holistic supply-chain security (SupChain):</strong> A mini-course on securing against third-party components from Nikos Vasilakis and Vasileios Kemerlis.
+            <strong>Holistic supply-chain security (SupChain):</strong> A mini-course on securing against third-party components from
+            <a href="https://nikos.vasilak.is/" target="_blank">Nikos Vasilakis</a> and
+            <a href="https://cs.brown.edu/~vpk/" target="_blank">Vasileios Kemerlis</a>.
           </li>
           <li>
-            <strong>Retrofitting privacy guarantees (RetroPriv):</strong> A minicourse from Malte Schwarzkopf and Nikos Vasilakis on privacy-oriented transformations for modern polyglot environments.
+            <strong>A range of reasoning for systems (ReasonRange):</strong> A mini-course from
+            <a href="https://cs.brown.edu/~tbn/" target="_blank">Tim Nelson</a> and
+            <a href="https://robertylewis.com/" target="_blank">Rob Lewis</a>
+            on applying a range of manual-automated reasoning to systems.
+          </li>
+          <li>
+            <strong>Analyzing Rust to Guarantee Privacy (RustPriv):</strong> A minicourse from
+            <a href="https://cs.brown.edu/people/malte/" target="_blank">Malte Schwarzkopf</a> and
+            <a href="https://willcrichton.net" target="_blank">Will Crichton</a>
+            on privacy analyses for Rust programs.
+          </li>
+          <li>
+            <strong>Analyzing Shell Programs (Analysis):</strong> A mini-course on static and dynamic analysis and transformation of Shell programs by
+            <a href="https://nikos.vasilak.is/" target="_blank">Nikos Vasilakis</a> and
+            <a href="https://llazarek.github.io/" target="_blank">Lukas Lazarek</a>.
           </li>
         </ul>
+        <p>
+          The Systems Week will also feature a keynote by
+          <a href="https://tslilyai.github.io/" target="_blank">Lily Tsai</a>
+          (<a href="https://techsysinfra.google/research/" target="_blank">Google Systems Research</a>)
+          on <em>Systems Security for Agentic AI</em>,
+          and a panel discussion on Grad School applications.
+        </p>
         <p>
           The Systems Week's two-faculty-per-minicourse setup is intended to enable fruitful interactions between faculty that would benefit from such interactions and who might not have such interactions already in place. With 320 minutes of class time and daily research-oriented assignments, each minicourse should provide focused time, students, and resources to identify a common research problem (or set of problems) in which to make a serious dent. The intention is for these interactions to go beyond the boundaries of the seminar.
         </p>
