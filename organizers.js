@@ -88,7 +88,7 @@ const organizers = [
         role: "Faculty",
         photo: "assets/will.jpg",
         website: "https://willcrichton.net",
-        confirmedSpeaker: false,
+        confirmedSpeaker: true,
     }
 ];
 
@@ -196,7 +196,6 @@ organizers.forEach((organizer) => {
             <br>
             <strong style="color: #ED1C24;">${organizer.name}${star}</strong>
         </a>
-        <br>${organizer.role}
     `;
     gridContainer.appendChild(item);
 });
