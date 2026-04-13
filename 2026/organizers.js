@@ -49,13 +49,6 @@ const organizers = [
         confirmedSpeaker: true, 
     },
     {
-        name: "Shriram Krishnamurthi",
-        role: "Faculty",
-        photo: "assets/shriram.jpg",
-        website: "https://cs.brown.edu/~sk/",
-        confirmedSpeaker: false,
-    },
-    {
         name: "Tim Nelson",
         role: "Faculty",
         photo: "assets/tim.jpg",
